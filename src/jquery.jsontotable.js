@@ -136,7 +136,7 @@
 
       $(options.id).append(table);
     }
-
+    options.result = table;
     return this;
   };
 }(jQuery));
